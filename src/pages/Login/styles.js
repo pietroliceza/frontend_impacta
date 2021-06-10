@@ -24,7 +24,6 @@ export const BackImage = styled.div`
 export const LogoImg = styled.div`
   width: 46rem;
   height: 35rem;
-  border: 1px solid red;
   background: transparent url(${logo}) 0% 0% no-repeat padding-box;
 `;
 
@@ -63,6 +62,7 @@ export const ButtonSubmit = styled.button.attrs({
   type: 'submit',
 })`
   width: 459px;
+  margin-top: 2rem;
   height: 65px;
   background: var(--color-desability);
   color: var(--color-roxo);
