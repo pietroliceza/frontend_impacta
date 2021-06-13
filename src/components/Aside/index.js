@@ -8,10 +8,10 @@ const Aside = () => (
     <NavLink to="/categories">Categorias</NavLink>
     <NavLink to="/sales">Vendas</NavLink>
     <NavLink to="/purchases">Compras</NavLink>
-    <NavLink to="/">Orçamento</NavLink>
-    <NavLink to="/">Fornecedores</NavLink>
-    <NavLink to="/">Usuários</NavLink>
-    <NavLink to="/">Clientes</NavLink>
+    <NavLink to="/estimates">Orçamento</NavLink>
+    <NavLink to="/providers">Fornecedores</NavLink>
+    <NavLink to="/users">Usuários</NavLink>
+    <NavLink to="/clients">Clientes</NavLink>
     <NavLink>&copy; Kings of Code</NavLink>
   </Container>
 );

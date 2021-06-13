@@ -15,14 +15,14 @@ import {
   Date,
 } from './styles';
 
-function Purchases() {
+function Clients() {
   const history = useHistory();
   return (
     <>
       <Header />
       <Aside />
       <Main>
-        <PageTitle>LISTA DE COMPRAS</PageTitle>
+        <PageTitle>Clientes</PageTitle>
         <SalesList>
           <Sale>
             <Name>Nome do produto</Name>
@@ -43,11 +43,10 @@ function Purchases() {
             right: '20px',
           } }
           size={ 60 }
-          onClick={ () => history.push('/purchases/add') }
+          onClick={ () => history.push('/estimates/add') }
         />
       </Main>
-    </>
-  );
+    </>);
 }
 
-export default Purchases;
+export default Clients;
