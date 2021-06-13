@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import { Edit, AddCircle } from '@styled-icons/material';
 import Aside from '../../components/Aside';
 import Header from '../../components/Header';
@@ -18,6 +19,7 @@ import {
 } from './styles';
 
 const Index = () => {
+  const history = useHistory();
   const product = {
     name: 'Vestido simples verde P',
     quantity: 12,
@@ -221,15 +223,6 @@ const Index = () => {
             <Provider>{product.provider}</Provider>
             <Price>{`R$ ${product.price}`}</Price>
           </Product>
-          <Product>
-            <Name>{product.name}</Name>
-            <Quantity>
-              {`${product.quantity} und.`}
-            </Quantity>
-            <ProductCategory>{product.category}</ProductCategory>
-            <Provider>{product.provider}</Provider>
-            <Price>{`R$ ${product.price}`}</Price>
-          </Product>
         </ProductsList>
         <AddCircle
           style={ {
@@ -240,7 +233,7 @@ const Index = () => {
             right: '20px',
           } }
           size={ 60 }
-          onClick={ () => alert('cadastrar produto') }
+          onClick={ () => history.push('/products/add') }
         />
       </Main>
     </>

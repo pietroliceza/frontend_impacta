@@ -25,6 +25,7 @@ export const Logo = styled.img.attrs({
   src: `${img}`,
 })`
   width: 250px;
+  margin-left: 40px;
   cursor: pointer;
 `;
 

@@ -1,7 +1,15 @@
 import React from 'react';
 import Aside from '../../components/Aside';
 import Header from '../../components/Header';
-import { Main, TitlePage, NameInput, SelectCategory, CostInput } from './styles';
+import {
+  Main,
+  TitlePage,
+  NameInput,
+  SelectCategory,
+  CostInput,
+  QuantityInput,
+  SaveButton,
+} from './styles';
 
 function AddProduct() {
   return (
@@ -19,6 +27,8 @@ function AddProduct() {
           <option value="feminino">Feminino</option>
         </SelectCategory>
         <CostInput />
+        <QuantityInput />
+        <SaveButton>Cadastrar</SaveButton>
       </Main>
     </>
   );
