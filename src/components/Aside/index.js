@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, NavLink } from './styles';
 
-const Asside = () => (
+const Aside = () => (
   <Container>
     <NavLink to="/">Produtos</NavLink>
     <NavLink to="/">Categorias</NavLink>
@@ -16,4 +16,4 @@ const Asside = () => (
   </Container>
 );
 
-export default Asside;
+export default Aside;

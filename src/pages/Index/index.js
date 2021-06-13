@@ -1,5 +1,5 @@
 import React from 'react';
-import Asside from '../../components/Asside';
+import Aside from '../../components/Aside';
 import Header from '../../components/Header';
 
 import { Container } from './styles';
@@ -7,7 +7,7 @@ import { Container } from './styles';
 const Index = () => (
   <Container>
     <Header />
-    <Asside />
+    <Aside />
   </Container>
 );
 
