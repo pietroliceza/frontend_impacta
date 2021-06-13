@@ -4,7 +4,7 @@ import { Container, NavLink } from './styles';
 
 const Aside = () => (
   <Container>
-    <NavLink to="/">Produtos</NavLink>
+    <NavLink to="/products">Produtos</NavLink>
     <NavLink to="/">Categorias</NavLink>
     <NavLink to="/">Vendas</NavLink>
     <NavLink to="/">Compras</NavLink>
@@ -12,7 +12,7 @@ const Aside = () => (
     <NavLink to="/">Fornecedores</NavLink>
     <NavLink to="/">Usuários</NavLink>
     <NavLink to="/">Clientes</NavLink>
-    <NavLink to="/">Suporte</NavLink>
+    <NavLink>&copy; Kings of Code</NavLink>
   </Container>
 );
 

@@ -2,15 +2,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
+  position: fixed;
+  top: 5.72rem;
+  left: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-top: 4.9%;
-  height: 100%;
+  justify-content: space-between;
 `;
 
 export const NavLink = styled(Link)`
-  padding: 1.78% 0 1.78% 0;
+  padding: 2.2rem 0 2.2rem 0;
   background: #291F3BCC;
   text-align: center;
   text-decoration: none;
