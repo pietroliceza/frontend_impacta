@@ -7,7 +7,6 @@ import {
   EmailInput,
   PasswordInput,
   ButtonSubmit,
-  CreateAcout,
 } from './styles';
 
 function Login() {
