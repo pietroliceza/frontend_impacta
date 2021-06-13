@@ -75,7 +75,6 @@ const Index = () => {
             <Price>{`R$ ${product.price}`}</Price>
             <Edit
               size={ 20 }
-              onClick={ () => alert('editar produto') }
               style={ { cursor: 'pointer' } }
             />
           </Product>

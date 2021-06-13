@@ -9,7 +9,7 @@ const Header = () => {
     <Container>
       <Menu>Menu</Menu>
       <Logo onClick={ () => history.push('/products') } />
-      <Perfil onClick={ () => alert('perfil') } />
+      <Perfil/>
     </Container>
   );
 };

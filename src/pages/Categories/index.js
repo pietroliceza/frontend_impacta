@@ -19,7 +19,6 @@ function Categories() {
             Nike
             <Edit
               size={ 20 }
-              onClick={ () => alert('editar produto') }
               style={ { cursor: 'pointer' } }
             />
           </Category>
@@ -27,7 +26,6 @@ function Categories() {
             Adidas
             <Edit
               size={ 20 }
-              onClick={ () => alert('editar produto') }
               style={ { cursor: 'pointer' } }
             />
 

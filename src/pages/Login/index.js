@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import {
   BackImage,
   Container,
@@ -10,6 +11,7 @@ import {
 } from './styles';
 
 function Login() {
+  const history = useHistory();
   return (
     <>
       <BackImage />
@@ -17,8 +19,7 @@ function Login() {
         <LogoImg />
         <EmailInput />
         <PasswordInput />
-        <ButtonSubmit onClick={ () => alert('entrar') }>Entrar</ButtonSubmit>
-        <CreateAcout onClick={ () => alert('criar conta') }>Criar conta</CreateAcout>
+        <ButtonSubmit onClick={ () => history.push('/products') }>Entrar</ButtonSubmit>
       </Container>
     </>
   );
